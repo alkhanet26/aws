@@ -1,6 +1,6 @@
 #!/bin/bash
-### 🔰 COPYRIGHT © 2021 OnePieceVPN, Inc 🔰 ###
-# Mod by PrinceNewbie
+### 🔰 COPYRIGHT © 2024 AlkVPN, Inc 🔰 ###
+# Mod by ALK
 # ==================================================
 
 # initialisasi var
@@ -191,8 +191,8 @@ cd clientconfig
 # Buat config client TCP 1197
 cd /etc/openvpn
 cat > /etc/openvpn/client-tcp-1197.ovpn <<-END
-############## WELCOME TO OnePieceVPN###############
-### 🔰 COPYRIGHT © 2021 OnePieceVPN, Inc 🔰 ######
+############## WELCOME TO AlkVPN ###############
+### 🔰 COPYRIGHT © 2024 ALK, Inc 🔰 ######
 ####### DONT FORGET TO SUPPORT US #######
 client
 dev tun
@@ -231,8 +231,8 @@ sed -i $MYIP2 /etc/openvpn/client-tcp-1194.ovpn;
 # Buat config client UDP 1194
 cd /etc/openvpn
 cat > /etc/openvpn/client-udp-1194.ovpn <<-END
-############## WELCOME TO ###############
-########## syapik96 ###########
+############## WELCOME TO AlkVPN ###############
+### 🔰 COPYRIGHT © 2024 ALK, Inc 🔰 ######
 ####### DONT FORGET TO SUPPORT US #######
 client
 dev tun
@@ -267,8 +267,8 @@ sed -i $MYIP2 /etc/openvpn/client-udp-1194.ovpn;
 
 # Buat config client TCP 1194
 cat > /etc/openvpn/client-tcp-1194.ovpn <<-END
-############## WELCOME TO OnePieceVPN ###############
-### 🔰 COPYRIGHT © 2021 OnePieceVPN, Inc 🔰 ######
+############## WELCOME TO AlkVPN ###############
+### 🔰 COPYRIGHT © 2024 ALK, Inc 🔰 ######
 ####### DONT FORGET TO SUPPORT US #######
 client
 dev tun
@@ -303,8 +303,8 @@ sed -i $MYIP2 /etc/openvpn/client-tcp-1194.ovpn;
 
 # Buat config client UDP 2200
 cat > /etc/openvpn/client-udp-2200.ovpn <<-END
-############## WELCOME TO OnePieceVPN ###############
-### 🔰 COPYRIGHT © 2021 OnePieceVPN, Inc 🔰 ######
+############## WELCOME TO AlkVPN ###############
+### 🔰 COPYRIGHT © 2024 ALK, Inc 🔰 ######
 ####### DONT FORGET TO SUPPORT US #######
 client
 dev tun
@@ -324,8 +324,8 @@ sed -i $MYIP2 /etc/openvpn/client-udp-2200.ovpn;
 
 # Buat config client TCP 2200
 cat > /etc/openvpn/client-tcp-2200.ovpn <<-END
-############## WELCOME TO OnePieceVPN ###############
-### 🔰 COPYRIGHT © 2021 OnePieceVPN, Inc 🔰 ######
+############## WELCOME TO AlkVPN ###############
+### 🔰 COPYRIGHT © 2024 ALK, Inc 🔰 ######
 ####### DONT FORGET TO SUPPORT US #######
 client
 dev tun
@@ -345,8 +345,8 @@ sed -i $MYIP2 /etc/openvpn/client-tcp-2200.ovpn;
 
 # Buat config client SSL
 cat > /etc/openvpn/client-tcp-ssl.ovpn <<-END
-############## WELCOME TO OnePieceVPN ###############
-### 🔰 COPYRIGHT © 2021 OnePieceVPN, Inc 🔰 ######
+############## WELCOME TO AlkVPN ###############
+### 🔰 COPYRIGHT © 2024 ALK, Inc 🔰 ######
 ####### DONT FORGET TO SUPPORT US #######
 client
 dev tun
