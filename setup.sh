@@ -173,7 +173,7 @@ echo ""  | tee -a log-install.txt
 echo "   - Autoreboot On 00.05 GMT +8" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo -e "\e[97m------------\e[0m\e[100m\e[97mCopyright © 2022 \e[1;104mBy Gitub.com/alkhanet26\e[0m\e[97m-------------\e[0m" | tee -a log-install.txt
+echo -e "\e[97m------------\e[0m\e[100m\e[97mCopyright © 2024 \e[1;104mBy Github.com/alkhanet26\e[0m\e[97m-------------\e[0m" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo -e " Telegram : t.me/ALK-NET" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
