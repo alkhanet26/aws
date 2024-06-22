@@ -1,6 +1,4 @@
 #!/bin/bash
-# Modified By PrinceNewBie
-# Telegram: https://t.me/PrinceNewbie
 
 yl='\e[32;1m'
 red='\e[1;31m'
@@ -73,7 +71,7 @@ echo -e "║ " | lolcat
 echo -e "╠═════════════════════════════════════════════════════════" | lolcat
 echo -e "║  Link SSR      : ${ssr_link}"
 echo -e "╠════════════════════════════════════════════════════════╗" | lolcat
-echo -e "║            COPYRIGHT © 2021 by Prince Newbie           ║" | lolcat
+echo -e "║            COPYRIGHT © 2024 by ALKHANET VPN            ║" | lolcat
 echo -e "╚════════════════════════════════════════════════════════╝" | lolcat
 echo -e "\e[32;1m      ENTER [ 0 ] TO MENU PRESS [ ENTER ] TO EXIT \e[0m  "
 echo -e  "${red}"
