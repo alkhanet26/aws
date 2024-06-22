@@ -1,19 +1,15 @@
 #!/bin/bash
-#Script Mod by Prince AKA syapik96
+#Script Mod by ALK
 
 clear
 figlet -f slant "Free Autoscript" | lolcat
 echo -e "#====================================================================#" | lolcat
-echo -e "#                   Premium Script By OnePieceVPN                    #" | lolcat
+echo -e "#                   Premium Script By AlkhanetVPN                    #" | lolcat
 echo -e "#                                                                    #" | lolcat
-echo -e "#       ░█▀▀▀█ ░█▄─░█ ░█▀▀▀ 　 ░█▀▀█ ▀█▀ ░█▀▀▀ ░█▀▀█ ░█▀▀▀           #" | lolcat
-echo -e "#       ░█──░█ ░█░█░█ ░█▀▀▀ 　 ░█▄▄█ ░█─ ░█▀▀▀ ░█─── ░█▀▀▀           #" | lolcat
-echo -e "#       ░█▄▄▄█ ░█──▀█ ░█▄▄▄ 　 ░█─── ▄█▄ ░█▄▄▄ ░█▄▄█ ░█▄▄▄           #" | lolcat
-echo -e "#                                                                    #" | lolcat
-echo -e "#                         - Modded By PrinceNewbie                   #" | lolcat
+echo -e "#                         - Modded By ALK                            #" | lolcat
 echo -e "#           │▒│ /▒/       - Thanks To :                              #" | lolcat
 echo -e "#           │▒│/▒/        - Whatsapp  :                              #" | lolcat
-echo -e "#         　│▒ /▒/─┬─┐    - Telegram : t.me/PrinceNewbie             #" | lolcat
+echo -e "#         　│▒ /▒/─┬─┐    - Telegram :                               #" | lolcat
 echo -e "#           │▒│▒|▒│▒│     - To those who use this script,            #" | lolcat
 echo -e "#          ┌┴─┴─┐-┘─┘       this script is still under development   #" | lolcat
 echo -e "#          │▒┌──┘▒▒▒│     - Thanks for who using this script         #" | lolcat
@@ -21,8 +17,8 @@ echo -e "#          └┐▒▒▒▒▒▒┌┘     - To EnterMenuList = 'men
 echo -e "#                                                                    #" | lolcat
 echo -e "#====================================================================#" | lolcat
 echo -e ""
-echo -e "                         \e[1;32mCOPYRIGHT © 2021\e[0m "
-echo -e "               \e[1;32mONEPIECEVPN POWERED BY PRINCENEWBIE\e[0m"
+echo -e "                         \e[1;32mCOPYRIGHT © 2024\e[0m "
+echo -e "               \e[1;32mALKHANETVPN POWERED BY ALKHANET\e[0m"
 echo -e "            \e[1;32mPrivacy Policy Terms & Conditions Disclaimer\e[0m"
 echo -e "\e[1;31m"
 echo -e "                Pres Enter To back Menu or X To Exit "
