@@ -38,5 +38,5 @@ echo " =========================="
 echo " Client Name : $user"
 echo " Expired On  : $exp4"
 echo " =========================="
-echo " Mod by SL"
+echo " Mod by ALK"
 
