@@ -1,9 +1,9 @@
 #!/bin/bash
-# Mod Has been updated by Prince 
+# Mod Has been updated by ALK 
 # 2022
 # ==================================================
 
-GitUser="syapik96"
+GitUser="alkhanet26"
 #wget https://github.com/${GitUser}/
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
