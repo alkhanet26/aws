@@ -21,7 +21,7 @@ echo -e " $bd║\e[m"
 echo -e " $bd║\e[m   0 $bl]\e[m$bd MENU    x $bl]\e[m$bd Exit"
 echo -e " $bd║\e[m"
 echo -e " ╠═══════════════════════════════════════╗" | lolcat
-echo -e " ║    COPYRIGHT 2021 OnePieceVPN Inc     ║" | lolcat
+echo -e " ║        COPYRIGHT 2024 ALKVPN Inc      ║" | lolcat
 echo -e " ╚═══════════════════════════════════════╝" | lolcat
 echo -e "\e[1;31m"
 read -p "    Please select an option :  "  v2ray
