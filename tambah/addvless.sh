@@ -1,5 +1,5 @@
 #!/bin/bash
-# updated by syapikk96
+# updated by alkhanet26
 
 source /var/lib/premium-script/ipvps.conf
 if [[ "$IP" = "" ]]; then
@@ -53,4 +53,4 @@ echo -e "link none TLS  : ${vlesslink2}"
 echo -e "================================="
 echo -e "Expired On     : $exp"
 echo -e ""
-echo -e "By Princenewbie"
+echo -e "By AlkNET"
