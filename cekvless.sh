@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script Mod updated by Prince
+# Script Mod updated by ALK
 
 clear
 echo -n > /tmp/other.txt
