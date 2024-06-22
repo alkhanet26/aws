@@ -3,11 +3,11 @@
 
 
 # =================================================
-#         Script Mod Modified By Prince 
+#         Script Mod Modified By ALK 
 # Command line auto script setup has been updated
 # please and hopelly pull an issue if got an error
 # =================================================
-#               Modified on 24-1-22
+#               Modified on 24-6-24
 # =================================================
 
 
@@ -103,7 +103,7 @@ echo -e "\e[1;41m==========================================================\e[0m
 sleep 3
 clear 
 cd
-GitUser="syapik96"
+GitUser="alkhanet26"
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn.sh ./ssh-vpn.sh
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/sstp.sh && chmod +x sstp.sh && screen -S sstp.sh ./sstp.sh
@@ -133,7 +133,7 @@ clear
 figlet -f slant "Server Will Reboot in 10sec" | lolcat
 echo  " "
 echo -e "=================-AutoScript VPN-Batch-====================" | lolcat  | tee -a log-install.txt
-echo -e "\e[1;31m -----------------\e[0m\e[1;32m[\e[0m \e[1;43m\e[1;31mModified by Prince\e[0m \e[1;32m]\e[0m\e[1;31m------------------\e[0m" | tee -a log-install.txt
+echo -e "\e[1;31m -----------------\e[0m\e[1;32m[\e[0m \e[1;43m\e[1;31mModified by ALK\e[0m \e[1;32m]\e[0m\e[1;31m------------------\e[0m" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo -e "    \e[31m[\e[0m\e[1;42m       Service        \e[0m\e[31m]   [\e[0m\e[1;42m   Port   \e[0m\e[31m]\e[0m" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
@@ -173,12 +173,12 @@ echo ""  | tee -a log-install.txt
 echo "   - Autoreboot On 00.05 GMT +8" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo -e "\e[97m------------\e[0m\e[100m\e[97mCopyright © 2022 \e[1;104mBy Gitub.com/syapik96\e[0m\e[97m-------------\e[0m" | tee -a log-install.txt
+echo -e "\e[97m------------\e[0m\e[100m\e[97mCopyright © 2022 \e[1;104mBy Gitub.com/alkhanet26\e[0m\e[97m-------------\e[0m" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo -e " Telegram : t.me/PrinceNewbie" | tee -a log-install.txt
+echo -e " Telegram : t.me/ALK-NET" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 sleep 8
 clear 
-figlet -f slant "Good Bye By Prince" | lolcat
+figlet -f slant "Good Bye By ALK" | lolcat
 sleep 2
 reboot
