@@ -31,7 +31,7 @@ echo -e  " $bl ║\e[m$bd 14$bl]\e[m$bd  Update" | lolcat
 echo -e  " $bl ║\e[m" | lolcat  
 echo -e  "  ╠════════════════════════════════════════════════════════════╣" | lolcat
 echo -e  "  ║            0 ) Main Menu      x ) Exit                     ║" | lolcat
-echo -e  "  ║      COPYRIGHT ONEPIECEVPN, POWERED BY PRINCENEWBIE.       ║" | lolcat
+echo -e  "  ║            COPYRIGHT ALKHANETVPN, POWERED BY ALK.          ║" | lolcat
 echo -e  "  ╚════════════════════════════════════════════════════════════╝" | lolcat
 echo -e  "\e[1;31m"
 read -p  "       Please select an option :  " system
@@ -107,7 +107,7 @@ case $system in
 		exit
 		;;
 		14)
-		echo -e "\e[1;31m SORRY!!!! Still No Update , Sila semak repo https://github.com/syapik96/aws masa kesemasa\e[0m "
+		echo -e "\e[1;31m SORRY!!!! Still No Update , Mampir repo https://github.com/alkhanet96/aws \e[0m "
 		sleep 5
 		clear
 		system
