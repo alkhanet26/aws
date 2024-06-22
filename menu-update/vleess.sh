@@ -22,7 +22,7 @@ echo -e " $bd║\e[m"
 echo -e " ║      0 ] Menu      x ] Exit" |  lolcat              
 echo -e " ║" | lolcat
 echo -e " ╠═══════════════════════════════════════╗" | lolcat
-echo -e " ║    COPYRIGHT 2021 OnePieceVPN Inc     ║" | lolcat
+echo -e " ║       COPYRIGHT 2024 ALK-VPN Inc      ║" | lolcat
 echo -e " ╚═══════════════════════════════════════╝" | lolcat
 echo -e "\e[1;31m"
 read -p "     Please select an option :  "  vless
