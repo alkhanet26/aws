@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script by : Prince Newbie
+# Script by : ALK
 
 clear
 figlet -f slant "NEW ACCOUNT" | lolcat
@@ -62,7 +62,7 @@ echo -e "     \e[1;31mAktif Sampai   : \e[0m"$exp
 echo -e "     \e[1;32mBack Menu enter >> \e[0m"0
 echo -e "     \e[1;32mJust Hit Enter To Exit >> \e[0m"
 echo -e ""
-echo -e " #####===============[ Terima Kasih Telah Menggunakan Perkhidmatan Kami ]=================#####" | lolcat
+echo -e " #####===============[ Terima Kasih Telah Menggunakan Server Kami ]=================#####" | lolcat
 echo -e "\e[1;32m"
 read -p "        Back Menu or Exit : " Lari
 echo -e "\e[0m"
