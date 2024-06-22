@@ -28,9 +28,9 @@ IPVPS=$(curl -s ipinfo.io/ip )
 	up=$(uptime|awk '{ $1=$2=$(NF-6)=$(NF-5)=$(NF-4)=$(NF-3)=$(NF-2)=$(NF-1)=$NF=""; print }')
 
 echo -e  "  ╠════════════════════════════════════════════════════════════╣" | lolcat
-echo -e  "  ║                ┃ ONEPIECEVPN - PROJECT ┃                   ║" |lolcat
+echo -e  "  ║                 ┃ ALKHANET - PROJECT ┃                   ║" |lolcat
 echo -e  "  ╠════════════════════════════════════════════════════════════╝" | lolcat
-echo -e  " $bl ║             Panel Created by PrinceNewBie" | lolcat
+echo -e  " $bl ║             Panel Created by Alkhanet" | lolcat
 echo -e  " $bl ║"
 echo -e  " $bl ║ \e[032;1mCPU Model:\e[0m$bd $cname  "
 echo -e  " $bl ║ \e[032;1mNumber Of Cores:\e[0m$bd $cores"
@@ -78,7 +78,7 @@ echo -e  " $bl ║\e[m$bd 20$bl]\e[m$bd Change Banner"  | lolcat
 echo -e  " $bl ║"                              
 echo -e  "  ╠════════════════════════════════════════════════════════════╣\e[m" | lolcat
 echo -e  "  ║   0) Exit Menu .                                           ║\e[m" | lolcat
-echo -e  "  ║      COPYRIGHT ONEPIECEVPN, POWERED BY PRINCENEWBIE.       ║\e[m" | lolcat
+echo -e  "  ║             COPYRIGHT ALKHANETVPN, POWERED BY ALK.         ║\e[m" | lolcat
 echo -e  "  ╚════════════════════════════════════════════════════════════╝\e[m" | lolcat
 echo -e  ""
 read -p  "     Please select an option :  " menu
