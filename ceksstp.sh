@@ -2,4 +2,4 @@
 clear
 accel-cmd show sessions
 echo ""
-echo "Mod by SL"
+echo "Mod by ALK"
