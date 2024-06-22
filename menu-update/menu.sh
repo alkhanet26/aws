@@ -1,9 +1,7 @@
 #!/bin/bash
 # VPN Premium Script
-# © Github.com/syapik96
-# Orignal Repository: https://github.com/syapik96/aws
-# Modified By PrinceNewBie
-# Telegram: https://t.me/ PrinceNewbie
+# © Github.com/alkhanet26
+# Orignal Repository: https://github.com/alkhanet26/aws
 # Thanks for using this script, Enjoy Highspeed VPN Service
 if [ "$EUID" -ne 0 ]; then
   echo -e "${rd}Skrip perlu dijalankan sebagai root!${nc}";
@@ -65,8 +63,8 @@ echo -e  "  ║ " | lolcat
 echo -e  "  ╠════════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║               Exit Panel Just Press Enter                  ║" | lolcat
 echo -e  "  ╠════════════════════════════════════════════════════════════╣" | lolcat
-echo -e  "  ║           🔰 COPYRIGHT © 2021 OnePieceVPN, Inc 🔰           ║" | lolcat
-echo -e  "  ║                  POWERED BY PRINCENEWBIE                   ║" | lolcat
+echo -e  "  ║           🔰 COPYRIGHT © 2024 AlkhanetVPN, Inc 🔰          ║" | lolcat
+echo -e  "  ║                          POWERED BY ALK                    ║" | lolcat
 echo -e  "  ╚════════════════════════════════════════════════════════════╝" | lolcat
 echo -e  "\e[1;31m"
 read -p  "           Select From Options :  " menu
