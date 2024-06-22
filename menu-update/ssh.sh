@@ -87,7 +87,7 @@ case $ssh1 in
 	exit
 	;;
         *)
-        echo -e "${red}Please enter the correct number${NC}
+        echo -e "${red}Please enter the correct number${NC}"
         clear
         exit
         ;;
