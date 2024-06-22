@@ -1,5 +1,5 @@
 #!/bin/bash
-# updated by syapik96
+# updated by alkhanet26
 
 red='\e[1;31m'
 green='\e[0;32m'
@@ -25,7 +25,7 @@ echo -e  " $bl ║\e[m$bd 9$bl]\e[m$bd Cek Users Who Do Multi Login SSH"
 echo -e  " $bl ║"| lolcat
 echo -e  "  ╠════════════════════════════════════════════════════════════╣" | lolcat
 echo -e  "  ║            0 ) Main Menu      x ) Exit                     ║" | lolcat
-echo -e  "  ║      COPYRIGHT ONEPIECEVPN, POWERED BY PRINCENEWBIE.       ║" | lolcat
+echo -e  "  ║             COPYRIGHT ALKAHETVPN, POWERED BY ALK.          ║" | lolcat
 echo -e  "  ╚════════════════════════════════════════════════════════════╝" | lolcat
 echo -e "\e[1;31m"
 read -p "            Please Input Number :  " ssh1
