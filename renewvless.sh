@@ -40,5 +40,5 @@ echo -e "\e[1;32m========================================\e[0m"
 echo -e "         \e[1;31mClient Name \e[0m: $user"
 echo -e "         \e[1;31mExpired On  \e[0m: $exp4"
 echo -e "\e[1;32m========================================\e[0m"
-echo -e "           Mod by syapik96" | lolcat
+echo -e "           Mod by ALK" | lolcat
 echo -e "\e[1;32m========================================\e[0m"
