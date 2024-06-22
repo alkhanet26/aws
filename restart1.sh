@@ -1,5 +1,5 @@
 #!/bin/bash
-# Mod by syapik96
+# Mod by ALK
 
 red='\e[1;31m'
 green='\e[0;32m'
@@ -26,8 +26,8 @@ echo -e "     $bl[\e[m$bd 9$bl]\e[m$bd Restart Websocket Python"
 echo -e "     $bl[\e[m$bd x$bl]\e[m$bd Exit"
 echo -e ""
 echo -e  "  ╔════════════════════════════════════════════════════════════╗" | lolcat
-echo -e  "  ║           Copyright © 2022 by Github.com/syapik96          ║" | lolcat
-echo -e  "  ║            🔰Auto-Script is Powered by PRINCE.🔰           ║" | lolcat
+echo -e  "  ║           Copyright © 2024 by Github.com/alkhanet26        ║" | lolcat
+echo -e  "  ║               🔰Auto-Script is Powered by ALK.🔰           ║" | lolcat
 echo -e  "  ╚════════════════════════════════════════════════════════════╝" | lolcat
 echo -e ""
 read -p "    Select From Options [1-9 or x] :  " Restart
@@ -64,7 +64,7 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "         Script Mod by syapik96           "
+                echo -e "         Script Mod by ALK           "
                 echo -e ""
                 echo -e "         All Service Restarted        "
                 echo -e ""
@@ -78,7 +78,7 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "         Script Mod by syapik96           "
+                echo -e "         Script Mod by ALK           "
                 echo -e ""
                 echo -e "         SSH Service Restarted        "
                 echo -e ""
@@ -91,7 +91,7 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "         Script Mod by syapik96           "
+                echo -e "         Script Mod by ALK           "
                 echo -e ""
                 echo -e "       Dropbear Service Restarted     "
                 echo -e ""
@@ -104,7 +104,7 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "          Script Mod by syapik96           "
+                echo -e "          Script Mod by ALK           "
                 echo -e ""
                 echo -e "        Stunnel4 Service Restarted    "
                 echo -e ""
@@ -117,7 +117,7 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "        Script Mod by syapik96           "
+                echo -e "        Script Mod by ALK           "
                 echo -e ""
                 echo -e "       OpenVPN Service Restarted      "
                 echo -e ""
@@ -130,7 +130,7 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "         Script Mod by syapik96           "
+                echo -e "         Script Mod by ALK           "
                 echo -e ""
                 echo -e "        Squid Service Restarted      "
                 echo -e ""
@@ -143,7 +143,7 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "         Script Mod by syapik96           "
+                echo -e "         Script Mod by ALK           "
                 echo -e ""
                 echo -e "         Nginx Service Restarted      "
                 echo -e ""
@@ -164,7 +164,7 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "           Script Mod by syapik96           "
+                echo -e "           Script Mod by ALK           "
                 echo -e ""
                 echo -e "    Badvpn  Badvpn Service Restarted  "
                 echo -e ""
@@ -189,7 +189,7 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "       Script Mod by syapik96         "
+                echo -e "       Script Mod by ALK         "
                 echo -e ""
                 echo -e "     WS Python Service Restarted "
                 echo -e ""
