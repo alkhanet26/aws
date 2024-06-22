@@ -1,7 +1,7 @@
 #!/bin/bash
-### Telegram: https : //t.me/ PrinceNewbie
+### Telegram: https : //t.me/ALKNET
 ### Back to old type configuration ,,, while do update facing issue .. 
-### Method use from : https://github.com/Dimas1441
+### Method use from : https://github.com/alkhanet26
 
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
@@ -144,13 +144,14 @@ Save_iptables
 Start_SSR
 }
 
+GitUser="alkhanet26"
 # Install_SSR
 cd /usr/local/sbin
-wget -O /usr/bin/ssr "https://raw.githubusercontent.com/syapik96/aws/main/menu-update/ssr.sh" && chmod +x /usr/bin/ssr
-wget -O addssr "https://raw.githubusercontent.com/syapik96/aws/main/tambah/addssr.sh" && chmod +x addssr
-wget -O delssr "https://raw.githubusercontent.com/syapik96/aws/main/hapus/delssr.sh" && chmod +x delssr
-wget -O xp-ssr "https://raw.githubusercontent.com/syapik96/aws/main/xp-ssr.sh" && chmod +x xp-ssr
-wget -O renewssr "https://raw.githubusercontent.com/syapik96/aws/main/renewssr.sh" && chmod +x renewssr
+wget -O /usr/bin/ssr "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/ssr.sh" && chmod +x /usr/bin/ssr
+wget -O addssr "https://raw.githubusercontent.com/${GitUser}/aws/main/tambah/addssr.sh" && chmod +x addssr
+wget -O delssr "https://raw.githubusercontent.com/${GitUser}/aws/main/hapus/delssr.sh" && chmod +x delssr
+wget -O xp-ssr "https://raw.githubusercontent.com/${GitUser}/aws/main/xp-ssr.sh" && chmod +x xp-ssr
+wget -O renewssr "https://raw.githubusercontent.com/${GitUser}/aws/main/renewssr.sh" && chmod +x renewssr
 touch /usr/local/shadowsocksr/akun.conf
 rm -f /root/ssr.sh
 echo "0 0 * * * root xp-ssr" >> /etc/crontab
