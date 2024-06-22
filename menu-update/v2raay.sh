@@ -55,6 +55,7 @@ case $v2ray in
     x)
     sudo -i
     exit
+    ;;
     *)
     echo -e "\e[1;31mPlease enter an correct number\e[0m"
     clear
