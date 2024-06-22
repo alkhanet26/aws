@@ -109,20 +109,20 @@ apt -y install nginx
 cd
 #rm /etc/nginx/sites-enabled/default
 #rm /etc/nginx/sites-available/default
-wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/syapik96/aws/main/nginx.conf"
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/${GitUser}/aws/main/nginx.conf"
 
 Index_port='81'
 IPADDR=$(wget -qO- icanhazip.com);
 # creating page download Openvpn config file
 mkdir -p /home/vps/public_html
-wget -O /home/vps/public_html/index.html "https://raw.githubusercontent.com/syapik96/aws/main/lain2/index.html"
+wget -O /home/vps/public_html/index.html "https://raw.githubusercontent.com/${GitUser}/aws/main/lain2/index.html"
 
 # Setting template's correct name,IP address and nginx Port Page Openvpn
 sed -i "s|NGINXPORT|$Index_port|g" /home/vps/public_html/index.html
 sed -i "s|IP-ADDRESS|$IPADDR|g" /home/vps/public_html/index.html
 
 # Restarting nginx service
-wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/syapik96/aws/main/vps.conf"
+wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/${GitUser}/aws/main/vps.conf"
 systemctl restart nginx
 
 cd
@@ -252,17 +252,17 @@ sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
 systemctl restart stunnel4
 
 # websocket-python
-wget "https://raw.githubusercontent.com/syapik96/aws/main/websocket-python/websocket.sh"
+wget "https://raw.githubusercontent.com/${GitUser}/aws/main/websocket-python/websocket.sh"
 chmod +x websocket.sh
 screen -S websocket ./websocket.sh
 #OpenVPN
 
-wget "https://raw.githubusercontent.com/syapik96/aws/main/install/vpn.sh"
+wget "https://raw.githubusercontent.com/${GitUser}/aws/main/install/vpn.sh"
 chmod +x vpn.sh
 ./vpn.sh
 
 # install badvpn
-#wget -O /usr/bin/badvpn-udpgw "https://github.com/syapik96/aws/raw/main/badvpn-udpgw64"
+#wget -O /usr/bin/badvpn-udpgw "https://github.com/${GitUser}/aws/raw/main/badvpn-udpgw64"
 #chmod +x /usr/bin/badvpn-udpgw
 
 # install badvpnCDN
@@ -327,8 +327,8 @@ echo "Banner /etc/issue.net" >>/etc/ssh/sshd_config
 sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dropbear
 
 #install bbr dan optimasi kernel
-wget "https://raw.githubusercontent.com/syapik96/aws/main/bbr.sh" && chmod +x bbr.sh && ./bbr.sh
-wget "https://raw.githubusercontent.com/syapik96/aws/main/set-br.sh" && chmod +x set-br.sh && ./set-br.sh
+wget "https://raw.githubusercontent.com/${GitUser}/aws/main/bbr.sh" && chmod +x bbr.sh && ./bbr.sh
+wget "https://raw.githubusercontent.com/${GitUser}/aws/main/set-br.sh" && chmod +x set-br.sh && ./set-br.sh
 
 # blockir torrent
 iptables -A FORWARD -m string --string "get_peers" --algo bm -j DROP
@@ -352,7 +352,7 @@ GitUser="alkhanet26"
 cd /usr/local/sbin
 wget -O add-host "https://raw.githubusercontent.com/${GitUser}/aws/main/add-host.sh" && chmod +x add-host
 wget -O about "https://raw.githubusercontent.com/${GitUser}/aws/main/about.sh" && chmod +x about
-wget -O prince "https://raw.githubusercontent.com/syapik96/aws/main/prince" && chmod +x prince
+wget -O prince "https://raw.githubusercontent.com/${GitUser}/aws/main/prince" && chmod +x prince
 wget -O menu "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/menu.sh" && chmod +x menu
 wget -O sssh "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/ssh.sh" && chmod +x sssh
 wget -O system "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/system.sh" && chmod +x system
@@ -416,5 +416,5 @@ mv /root/cert.pem /root/folderCert/cert.pem
 mv /root/key.pem /root/folderCert/key.pem 
 
 # finihsing
-prince
+menu
 netstat -nutlp
