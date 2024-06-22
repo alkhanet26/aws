@@ -8,7 +8,7 @@ hari="1"
 Pass="1"
 
 
-echo "Script AutoCreate Akun SSH dan OpenVPN Mod By PrinceNewbie"
+echo "Script AutoCreate Akun SSH dan OpenVPN Mod By ALK"
 sleep 3
 echo Ping Host
 echo Cek Hak Akses...
