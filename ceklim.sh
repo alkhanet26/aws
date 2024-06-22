@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script mod updated by prince
+# Script mod updated by ALK
 
 clear
 echo -e " "
