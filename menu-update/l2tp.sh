@@ -48,13 +48,14 @@ delpptp
 ;;
 6)
 delsstp
+;;
 7)
 renewl2tp
 ;;
-7)
+8)
 renewpptp
 ;;
-7)
+9)
 renewsstp
 ;;
 0)
