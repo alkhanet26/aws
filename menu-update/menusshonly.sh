@@ -1,9 +1,5 @@
 #!/bin/bash
 # VPN Premium Script
-# © Github.com/syapik96
-# Orignal Repository: https://github.com/syapik96/aws
-# Modified By PrinceNewBie
-# Telegram: https://t.me/ PrinceNewbie
 # Thanks for using this script, Enjoy Highspeed VPN Service
 
 
@@ -69,8 +65,8 @@ echo -e  "  $bl║ " | lolcat
 echo -e  "  ╠════════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║               Exit Panel Just Press Enter                  ║" | lolcat
 echo -e  "  ╠════════════════════════════════════════════════════════════╣" | lolcat
-echo -e  "  ║           Copyright © 2022 by Github.com/syapik96          ║" | lolcat
-echo -e  "  ║            🔰Auto-Script is Powered by PRINCE.🔰           ║" | lolcat
+echo -e  "  ║           Copyright © 2024 by Github.com/alkhanet26        ║" | lolcat
+echo -e  "  ║              🔰Auto-Script is Powered by ALK.🔰            ║" | lolcat
 echo -e  "  ╚════════════════════════════════════════════════════════════╝" | lolcat
 echo -e  "\e[1;31m"
 read -p  "           Select From Options :  " menu
