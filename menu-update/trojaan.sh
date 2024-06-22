@@ -1,5 +1,5 @@
 #!/bin/bash
-# updated by syapik96
+# updated by alkhanet26
 yl='\e[32;1m'
 bl='\e[36;1m'
 gl='\e[32;1m'
@@ -26,7 +26,7 @@ echo -e  "  ║" | lolcat
 echo -e  "  ║     0 ] Menu      x ] Exit" |  lolcat              
 echo -e  "  ║" | lolcat
 echo -e  "  ╠════════════════════════╗" | lolcat
-echo -e  "  ║    COPYRIGHT 2021 OnePieceVPN Inc      ║" | lolcat
+echo -e  "  ║    COPYRIGHT 2021 ALKVPN Inc      ║" | lolcat
 echo -e  "  ╚════════════════════════╝" | lolcat
 echo -e "\e[1;32m"
 read -p "     Please select an option :  " trojann1
