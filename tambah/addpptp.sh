@@ -39,6 +39,6 @@ Username     : $VPN_USER
 Password     : $VPN_PASSWORD
 Expired On   : $exp
 
-Mod By Prince
+Mod By AlkNET
 =================================
 EOF
