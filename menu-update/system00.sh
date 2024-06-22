@@ -25,8 +25,8 @@ echo -e  " $bl ║\e[m$bd 8$bl]\e[m$bd  Change Banner"  | lolcat
 echo -e  " $bl ║\e[m" | lolcat  
 echo -e  "  ╠════════════════════════════════════════════════════════════╣" | lolcat
 echo -e  "  ║                0 ) Main Menu      x ) Exit                 ║" | lolcat
-echo -e  "  ║           Copyright © 2022 by Github.com/syapik96          ║" | lolcat
-echo -e  "  ║              Auto-Script is Powered by PRINCE.             ║" | lolcat
+echo -e  "  ║           Copyright © 2024 by Github.com/alkhanet26        ║" | lolcat
+echo -e  "  ║                 Auto-Script is Powered by ALK.             ║" | lolcat
 echo -e  "  ╚════════════════════════════════════════════════════════════╝" | lolcat
 echo -e  "\e[1;31m"
 read -p  "       Please select an option :  " system
