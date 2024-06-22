@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script Mod updated by Prince 12/21
+# Script Mod updated by ALK
 
 clear
 echo " "
@@ -76,5 +76,5 @@ echo "  Cara pakai : kill [nombor PID] " | lolcat
 echo " "
 echo "-------------------------------------"
 echo ""
-echo "    Mod updated by Prince" | lolcat
+echo "    Mod updated by ALK" | lolcat
 
