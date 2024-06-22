@@ -1,5 +1,5 @@
 #!/bin/bash
-# updated by syapik96
+# updated by alkhanet26
 
 IP=$(wget -qO- http://ipecho.net/plain | xargs echo);
 until [[ $user =~ ^[a-zA-Z0-9_]+$ && ${CLIENT_EXISTS} == '0' ]]; do
@@ -31,5 +31,5 @@ echo -e "Port          : 5555"
 echo -e "Cert          : http://$IP:81/server.crt"
 echo -e "Expired On    : $exp"
 echo -e "================================"
-echo -e "Mod By OnePiece"
+echo -e "Mod By AlkNET"
 EOF
