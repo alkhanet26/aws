@@ -1,7 +1,7 @@
 #!/bin/bash
 #
-# Mod by t.me/PrinceNewbie 
-#     COPYRIGHT.2022
+# Mod by t.me/ALK-NET 
+#     COPYRIGHT.2024
 # ==================================================
 
 # initialisasi var
