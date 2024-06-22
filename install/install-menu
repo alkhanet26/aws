@@ -1,6 +1,6 @@
 #!bin/bash
 
-GitUser="syapik96"
+GitUser="alkhanet26"
 # location 
 cd /usr/local/sbin
 # hapus yang terdahulu elak conflik 
@@ -49,7 +49,7 @@ chmod +x renew
 chmod +x clear-log
 
 clear
-figlet -f standard "syapik96" | lolcat
+figlet -f standard "alkhanet" | lolcat
 echo ""
 echo -e "\e[1;32m Sudah selesai download menu untuk ssh & openvpn panel "
 echo -e " Mohon maaf jika ada mistake dalam skrip\e[0m CUBA KETIK : \e[1;31mmenu \e[0m"
