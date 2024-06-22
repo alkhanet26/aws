@@ -15,13 +15,13 @@ source /etc/os-release
 ver=$VERSION_ID
 
 #detail nama perusahaan
-country=US
-state=California
-locality=San Jose
-organization=Gilergames, Inc
-organizationalunit=Gilergames, Inc
-commonname=ssh.gilergames.tk
-email=admin@gilergames.tk
+#country=US
+#state=California
+#locality=San Jose
+#organization=Gilergames, Inc
+#$organizationalunit=Gilergames, Inc
+#commonname=ssh.gilergames.tk
+#email=admin@gilergames.tk
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/${GitUser}/aws/main/password"
