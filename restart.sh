@@ -12,7 +12,7 @@ clear
 echo -e ""
 echo -e "======================================"| lolcat 
 echo -e ""
-echo -e "           \e[1;32mScript Mod by syapik96\e[0m           "
+echo -e "           \e[1;32mScript Mod by ALK\e[0m           "
 echo -e ""
 echo -e "    $bl[\e[m$bd1$bl]\e[m$bd Restart All Services"
 echo -e "    $bl[\e[m$bd2$bl]\e[m$bd Restart OpenSSH"
@@ -63,7 +63,7 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "         Script Mod by syapik96           "
+                echo -e "         Script Mod by ALK           "
                 echo -e ""
                 echo -e "         All Service Restarted        "
                 echo -e ""
@@ -77,7 +77,7 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "         Script Mod by syapik96           "
+                echo -e "         Script Mod by ALK          "
                 echo -e ""
                 echo -e "         SSH Service Restarted        "
                 echo -e ""
@@ -90,7 +90,7 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "         Script Mod by syapik96           "
+                echo -e "         Script Mod by ALK           "
                 echo -e ""
                 echo -e "       Dropbear Service Restarted     "
                 echo -e ""
@@ -104,7 +104,7 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "          Script Mod by syapik96           "
+                echo -e "          Script Mod by ALK           "
                 echo -e ""
                 echo -e "        Stunnel4 Service Restarted    "
                 echo -e ""
@@ -117,7 +117,7 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "        Script Mod by syapik96           "
+                echo -e "        Script Mod by ALK           "
                 echo -e ""
                 echo -e "       OpenVPN Service Restarted      "
                 echo -e ""
@@ -130,7 +130,7 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "         Script Mod by syapik96           "
+                echo -e "         Script Mod by ALK           "
                 echo -e ""
                 echo -e "        Squid Service Restarted      "
                 echo -e ""
@@ -143,7 +143,7 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "         Script Mod by syapik96           "
+                echo -e "         Script Mod by ALK          "
                 echo -e ""
                 echo -e "         Nginx Service Restarted      "
                 echo -e ""
@@ -164,7 +164,7 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "           Script Mod by syapik96           "
+                echo -e "           Script Mod by ALK           "
                 echo -e ""
                 echo -e "    Badvpn  Badvpn Service Restarted  "
                 echo -e ""
@@ -189,7 +189,7 @@ case $Restart in
                 echo -e ""
                 echo -e "======================================"| lolcat
                 echo -e ""
-                echo -e "       Script Mod by syapik96           "
+                echo -e "       Script Mod by ALK           "
                 echo -e ""
                 echo -e " SSH Over WS Python Service Restarted "
                 echo -e ""
