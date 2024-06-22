@@ -1,5 +1,5 @@
 #!/bin/bash
-GitUser="syapik96"
+GitUser="alkhanet26"
 #wget https://github.com/${GitUser}/
 curl https://rclone.org/install.sh | bash
 printf "q\n" | rclone config
@@ -15,9 +15,9 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user zulhisyam421@gmail.com
-from zulhisyam421@gmail.com
-password syapik96
+user orbi1.alkhanet@gmail.com
+from orbi1.alkhanet@gmail.com
+password Sukabumi123
 logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
