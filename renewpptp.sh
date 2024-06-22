@@ -38,6 +38,6 @@ echo " ==================================" | lolcat
 echo "    Client Name : $user"
 echo "    Expired On  : $exp4"
 echo " ==================================" | lolcat
-echo "          Mod by syapik96" | lolcat
+echo "             Mod by ALK            " | lolcat
 echo " ==================================" | lolcat
 
