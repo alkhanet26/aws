@@ -1,6 +1,6 @@
 #!/bin/bash
 
 clear
-prince
+ALK
 cat /root/log-install.txt
 echo ""
