@@ -36,7 +36,7 @@ figlet -f standard "Succesfully" | lolcat
 echo ""
 echo -e "         Your NewID Cloudflare" | lolcat
 echo -e "  ====================================" | lolcat
-echo -e "     AutoScriptVPN by PrinceNewbie " | lolcat
+echo -e "       AutoScriptVPN by Alkhanet " | lolcat
 echo -e ""
 echo -e "         DOMAIN      : $domain"
 echo -e ""
