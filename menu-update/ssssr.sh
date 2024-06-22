@@ -1,6 +1,6 @@
 #!/bin/bash
 ##
-## Updated By Prince
+## Updated By alkhanet
 
 red='\e[1;31m'
 green='\e[0;32m'
@@ -26,7 +26,7 @@ echo -e " $bd║     \e[m"
 echo -e " ╠════════════════════════════════╣" | lolcat
 echo -e " ║           ${red}0${NC} ${green}]${NC} RETURN  MENU               ║"
 echo -e " ╠════════════════════════════════╣" | lolcat
-echo -e " ║       COPYRIGHT © 2022 Prince`aka`syapik96          ║" | lolcat
+echo -e " ║       COPYRIGHT © 2022 ALK     ║" | lolcat
 echo -e " ╠════════════════════════════════╣" | lolcat
 echo -e ""
 read -p "     Please Input Number  :  " ssss
