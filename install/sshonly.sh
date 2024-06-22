@@ -1,5 +1,5 @@
 #!/bin/bash
-#GitUser="syapik96"
+#GitUser="alkhanet26"
 #wget https://github.com/${GitUser}/
 
 red='\e[1;31m'
@@ -40,7 +40,7 @@ clear
 echo " "
 echo "Installation has been completed!!"
 echo " "
-echo "=================================-Script Mod Prince96-===========================" | tee -a log-install.txt
+echo "====================================-Script Mod ALK-==============================" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "----------------------------------------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
@@ -64,7 +64,7 @@ echo "   - IPv6                    : [OFF]"  | tee -a log-install.txt
 echo "   - Autoreboot On 00.00 GMT +8" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "------------------------------------------Mod by Prince96------------------------------------------" | tee -a log-install.txt
+echo "------------------------------------------Mod by ALK---------------------------------------------" | tee -a log-install.txt
 echo "Installation Success"
 echo " Reboot in 5 Sec"
 sleep 5
