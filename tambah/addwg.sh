@@ -1,5 +1,5 @@
 #!/bin/bash
-# updated by syapik96
+# updated by alkhanet26
 
 # Load params
 source /etc/wireguard/params
@@ -83,5 +83,5 @@ echo -e "Wireguard	: http://$MYIP:81/$CLIENT_NAME.conf"
 echo -e "==============================="
 echo -e "Expired On     : $exp"
 echo -e ""
-echo -e "Mod By syapik96"
+echo -e "Mod By AlkNET"
 rm -f /root/wg0-client-$CLIENT_NAME.conf
