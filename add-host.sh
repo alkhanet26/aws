@@ -1,6 +1,5 @@
 #!/bin/bash
-### 🔰 COPYRIGHT © 2021 OnePieceVPN, Inc 🔰 ###
-### Script Update by : t.me/PrinceNewbie ####
+### 🔰 COPYRIGHT © 2024 AlkhanetVPN, Inc 🔰 ###
 
 red='\e[1;31m'
 green='\e[1;32m'
